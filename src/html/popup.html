@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/popup.css" />
+    <script type="module" src="../js/popup.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-detail">
+        <div id="title" class="label-large" data-localize="EXT_NAME_SHORT"></div>
+      </div>
+    </header>
+    <div class="group">
+      <div class="input-container">
+        <input id="commandInput" type="text">
+      </div>
+    </div>
+    <div class="group">
+      <div id="startStopToggle" class="item nav-index">
+        <div class="left-detail">
+          <div class="item-icon timer"></div>
+          <div class="label" data-localize="START"></div>
+        </div>
+        <div class="right-detail">
+          <div class="accelerator" data-accelerator="START"></div>
+        </div>
+      </div>
+    </div>
+    <div class="group">
+      <label for="chime" class="item nav-index">
+        <div class="left-detail">
+          <div class="item-icon chime"></div>
+          <div class="label" data-localize="OPTIONS_CHIME"></div>
+        </div>
+        <div class="right-detail">
+          <label class="switch">
+            <input type="checkbox" id="chime" />
+            <span class="track no-transition"></span>
+          </label>
+        </div>
+      </label>
+      <label for="notifications" class="item nav-index">
+        <div class="left-detail">
+          <div class="item-icon notifications"></div>
+          <div class="label" data-localize="OPTIONS_NOTIFY"></div>
+        </div>
+        <div class="right-detail">
+          <label class="switch">
+            <input type="checkbox" id="notifications" />
+            <span class="track no-transition"></span>
+          </label>
+        </div>
+      </label>
+    </div>
+  </body>
+</html>

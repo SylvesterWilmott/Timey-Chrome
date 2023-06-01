@@ -1,0 +1,32 @@
+{
+  "EXT_NAME": {
+    "message": "Timey - Countdown timer"
+  },
+  "EXT_NAME_SHORT": {
+    "message": "Timey"
+  },
+  "EXT_DESCRIPTION": {
+    "message": "A simple timer that requires no fiddling with controls, enter your desired duration and go!"
+  },
+  "START": {
+    "message": "Start timer"
+  },
+  "STOP": {
+    "message": "Stop timer"
+  },
+  "OPTIONS_CHIME": {
+    "message": "Play chime"
+  },
+  "OPTIONS_NOTIFY": {
+    "message": "Send notification"
+  },
+  "TIMER_COMPLETE": {
+    "message": "Timer complete!"
+  },
+  "ACCELERATOR_START": {
+    "message": "\u23CE"
+  },
+  "ACCELERATOR_START_MAC": {
+    "message": "\u23CE"
+  }
+}

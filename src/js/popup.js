@@ -52,7 +52,10 @@ async function updateDisplayBasedOnAlarmStartus () {
       const remainingTime = alarm.scheduledTime - currentTime
       const remainingSeconds = Math.floor(remainingTime / 1000)
       const durationString = duration.formatted(remainingSeconds)
-      titleEl.innerText = durationString
+
+      if (titleEl.innerText !== durationString) {
+        titleEl.innerText = durationString
+      }
     }
 
     updateDurationDisplay()

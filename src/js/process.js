@@ -5,7 +5,7 @@ export function parse (string) {
 
   const numberRegex = /^\d+(?:\.\d+)?$/m
   const timeRegex = /^@(\d{1,2})(?::(\d{2}))?\s*(am|pm)?$/i
-  const durationRegex = /(\d+(?:\.\d+)?)(?:\s*(d(?:ay)?s?|h(?:ou?rs?)?|m(?:in(?:ute)?s?)?|s(?:ec(?:ond)?s?)?))/g
+  const durationRegex = /\b(\d+(?:\.\d+)?)(?:\s*(d(?:ay)?s?|h(?:ou?rs?)?|m(?:in(?:ute)?s?)?|s(?:ec(?:ond)?s?)?))\b/g
   const timeFormatRegex = /^(\d{1,3}):(\d{2}):(\d{2})$|^(\d{1,2}):(\d{2})$|^(\d{1,2}):(\d{2}):(\d{2})$/
 
   const numberMatch = normalized.match(numberRegex)

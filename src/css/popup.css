@@ -186,6 +186,7 @@ input:checked + .track {
 }
 
 .input-container {
+  margin-top: -4px;
   height: 56px;
 }
 

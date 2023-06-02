@@ -1,7 +1,5 @@
 'use strict'
 
-/* global chrome */
-
 export function formatted (durationInSeconds) {
   const seconds = durationInSeconds % 60
   const minutes = Math.floor((durationInSeconds / 60) % 60)

@@ -47,6 +47,10 @@ async function updateDisplayBasedOnAlarmStartus () {
     const startStopToggleEl = document.querySelector('[data-localize="START"]')
     startStopToggleEl.innerText = chrome.i18n.getMessage('STOP')
 
+    const timericon = document.querySelector('.timer')
+    timericon.classList.remove('timer')
+    timericon.classList.add('cancel')
+
     function updateDurationDisplay () {
       const currentTime = Date.now()
       const remainingTime = alarm.scheduledTime - currentTime

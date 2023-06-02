@@ -185,6 +185,11 @@ input:checked + .track {
   mask-image: url(../images/notifications.svg);
 }
 
+.item-icon.cancel {
+  -webkit-mask-image: url(../images/cancel.svg);
+  mask-image: url(../images/cancel.svg);
+}
+
 .input-container {
   margin-top: -4px;
   height: 56px;

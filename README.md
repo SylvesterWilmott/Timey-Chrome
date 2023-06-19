@@ -1,5 +1,8 @@
 # Timey
 
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/dcifnigooednekcmhkcnakoifgdapdbk)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/users/dcifnigooednekcmhkcnakoifgdapdbk)
+
 Timey is a Chrome extension that lets you set a timer quickly and easily without fiddling with controls.
 
 ## Installation

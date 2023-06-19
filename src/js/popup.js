@@ -326,7 +326,11 @@ async function onActionClicked (e) {
 
 function onDocumentKeydown (e) {
   if (e.key === 'Enter') {
-    document.getElementById('startStopToggle').click()
+    const navElements = document.querySelectorAll('.nav-index:not(.selected)')
+
+    if (navElements.length === 0) {
+      document.getElementById('startStopToggle').click()
+    }
   }
 }
 
